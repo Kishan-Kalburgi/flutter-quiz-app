@@ -17,28 +17,28 @@ class _MyAppState extends State<MyApp> {
     {
       'questionText': 'What\'s your favorite color?',
       'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Red', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1},
+        {'text': 'Black', 'score': 10, 'color': Colors.black},
+        {'text': 'Red', 'score': 5, 'color': Colors.red},
+        {'text': 'Green', 'score': 3, 'color': Colors.green},
+        {'text': 'Purple', 'score': 1, 'color': Colors.purple},
       ]
     },
     {
       'questionText': 'What\'s your favorite animal?',
       'answers': [
-        {'text': 'Rabit', 'score': 3},
-        {'text': 'Snake', 'score': 11},
-        {'text': 'Elephat', 'score': 5},
-        {'text': 'Lion', 'score': 9},
+        {'text': 'Rabit', 'score': 3, 'color': Colors.blue},
+        {'text': 'Snake', 'score': 11, 'color': Colors.blue},
+        {'text': 'Elephat', 'score': 5, 'color': Colors.blue},
+        {'text': 'Lion', 'score': 9, 'color': Colors.blue},
       ]
     },
     {
       'questionText': 'What\'s your favorite Movie?',
       'answers': [
-        {'text': 'Avenger', 'score': 3},
-        {'text': 'FUN2', 'score': 3},
-        {'text': 'Spiderman', 'score': 3},
-        {'text': 'Think..!', 'score': 3},
+        {'text': 'Avenger', 'score': 3, 'color': Colors.blue},
+        {'text': 'FUN2', 'score': 3, 'color': Colors.blue},
+        {'text': 'Spiderman', 'score': 3, 'color': Colors.blue},
+        {'text': 'Think..!', 'score': 3, 'color': Colors.blue},
       ]
     }
   ];
